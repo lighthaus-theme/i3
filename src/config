@@ -1,0 +1,36 @@
+# Lighthaus Color for i3
+# GIT: https://github.com/lighthaus-theme/i3
+# Author: Adhiraj Sirohi (https://github.com/brutuski)
+#         Vasundhara Sharma (https://github.com/vasundhasauras)
+
+# Copyright © 2020-Present Lighthaus Theme
+# Copyright © 2020-Present Adhiraj Sirohi
+# Copyright © 2020-Present Vasundhara Sharma
+
+
+#     ___      _
+#    / __\___ | | ___  _ __ ___
+#   / /  / _ \| |/ _ \| '__/ __|
+#  / /__| (_) | | (_) | |  \__ \
+#  \____/\___/|_|\___/|_|  |___/
+
+set $clr-bg               #21252D
+set $clr-fg               #FFEE79
+set $clr-border           #FFFF00
+set $clr-border-in        #6CA89D
+set $clr-border-un        #282A36
+set $clr-border-ur        #F23939
+set $clr-border-pl        #44B273
+set $clr-indicator        #FFFF00
+set $clr-indicator-ur     #F23939
+set $clr-indicator-pl     #44B273
+
+
+# Class                   Border          Bg        Text        Indicator           Child_border
+client.focused            $clr-border     $clr-bg   $clr-fg     $clr-indicator      $clr-border
+client.focused_inactive   $clr-border-in  $clr-bg   $clr-fg     $clr-indicator      $clr-border-in
+client.unfocused          $clr-border-un  $clr-bg   $clr-fg     $clr-indicator      $clr-border-un
+client.urgent             $clr-border-ur  $clr-bg   $clr-fg     $clr-indicator-ur   $clr-border-ur
+client.placeholder        $clr-border-pl  $clr-bg   $clr-fg     $clr-indicator-pl   $clr-border-pl
+
+client.background         $clr-bg
